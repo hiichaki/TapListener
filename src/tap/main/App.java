@@ -19,6 +19,7 @@ public class App {
 			if (keyboard.getValue().equals(tapKeyboard)) {
 				keyboardHook.addKeyListener(new MyGlobalKeyAdapter(keyboard.getKey()));
 				run = true;
+				
 			}
 		}
 		
